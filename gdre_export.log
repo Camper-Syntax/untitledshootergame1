@@ -1,0 +1,109 @@
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/Bean.png-611e64bf78ddabd7aa9cf670bd27a413.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/Can of Beans.png-86b2a89917eff917b06c08abe7c53edf.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/Can_of_Beans.png-349b96df256c9e8132a0ed07dd58fa97.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/RandomLevelGenTileset.png-7dfecd914f483c4872cbb239693e27d6.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/Wall.png-c1e6c8a44733b40234aae37bb1bf51ff.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/bullet.png-6b56c7898a9b46a3c3db58585f0f8e0d.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/enemy.png-41fe8dc360e641bde1ffa5e18678b763.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/icon.png-f9ba9008f31679cd240e2c5f33a9a4fb.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/joystick_base_outline.png-483e8f1ac02a5b9a594f81d7e341a76f.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/joystick_tip.png-3a18c9ea76fb1ca4d2905a9a7401093a.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/.import/joystick_tip_arrows.png-c9482441a78cf839baf32238aae88b91.stex
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Can_of_Beans.ico
+Extracted C:/Users/itsca/Desktop/Godot/Projects/CourierNewPSMT.ttf
+Extracted C:/Users/itsca/Desktop/Godot/Projects/RandomLevelGenTileset.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scenes/Bullet.tscn
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scenes/Enemy.tscn
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scenes/Gameplay.tscn
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scenes/Levels/Level 1.tscn
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scenes/Levels/Level 2.tscn
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scenes/Levels/LevelBuilder.tres
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scenes/Node2D.tscn
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/Data.gd.remap
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/Data.gdc
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/EnemyAI.gd.remap
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/EnemyAI.gdc
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/Gameplay.gd.remap
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/Gameplay.gdc
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/OnExit.gd.remap
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/OnExit.gdc
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/PlayerController.gd.remap
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/PlayerController.gdc
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/Walker.gd.remap
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Scripts/Walker.gdc
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/Bean.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/Can of Beans.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/Can_of_Beans.png
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/Can_of_Beans.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/Wall.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/bullet.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/enemy.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/Sprites/icon.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/default_env.tres
+Extracted C:/Users/itsca/Desktop/Godot/Projects/joystick/textures/joystick_base_outline.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/joystick/textures/joystick_tip.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/joystick/textures/joystick_tip_arrows.png.import
+Extracted C:/Users/itsca/Desktop/Godot/Projects/joystick/virtual_joystick.gd.remap
+Extracted C:/Users/itsca/Desktop/Godot/Projects/joystick/virtual_joystick.gdc
+Extracted C:/Users/itsca/Desktop/Godot/Projects/joystick/virtual_joystick.tscn
+Extracted C:/Users/itsca/Desktop/Godot/Projects/project.binary
+No errors detected!
+USER WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:109) - Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+Script version 3.5.x detected
+decompiling res://Scripts/Data.gdc
+successfully decompiled res://Scripts/Data.gdc
+decompiling res://Scripts/EnemyAI.gdc
+successfully decompiled res://Scripts/EnemyAI.gdc
+decompiling res://Scripts/Gameplay.gdc
+successfully decompiled res://Scripts/Gameplay.gdc
+decompiling res://Scripts/OnExit.gdc
+successfully decompiled res://Scripts/OnExit.gdc
+decompiling res://Scripts/PlayerController.gdc
+successfully decompiled res://Scripts/PlayerController.gdc
+decompiling res://Scripts/Walker.gdc
+successfully decompiled res://Scripts/Walker.gdc
+decompiling res://joystick/virtual_joystick.gdc
+successfully decompiled res://joystick/virtual_joystick.gdc
+USER WARNING: Failed to save changed project config!
+   at: ImportExporter::decompile_scripts (modules\gdsdecomp\utility\import_exporter.cpp:340) - Failed to save changed project config!
+Converted res://.import/RandomLevelGenTileset.png-7dfecd914f483c4872cbb239693e27d6.stex to res://RandomLevelGenTileset.png
+Converted res://.import/Bean.png-611e64bf78ddabd7aa9cf670bd27a413.stex to res://Sprites/Bean.png
+Converted res://.import/Can of Beans.png-86b2a89917eff917b06c08abe7c53edf.stex to res://Sprites/Can of Beans.png
+Converted res://.import/Can_of_Beans.png-349b96df256c9e8132a0ed07dd58fa97.stex to res://Sprites/Can_of_Beans.png
+Converted res://.import/Wall.png-c1e6c8a44733b40234aae37bb1bf51ff.stex to res://Sprites/Wall.png
+Converted res://.import/bullet.png-6b56c7898a9b46a3c3db58585f0f8e0d.stex to res://Sprites/bullet.png
+Converted res://.import/enemy.png-41fe8dc360e641bde1ffa5e18678b763.stex to res://Sprites/enemy.png
+Converted res://.import/icon.png-f9ba9008f31679cd240e2c5f33a9a4fb.stex to res://Sprites/icon.png
+Converted res://.import/joystick_base_outline.png-483e8f1ac02a5b9a594f81d7e341a76f.stex to res://joystick/textures/joystick_base_outline.png
+Converted res://.import/joystick_tip.png-3a18c9ea76fb1ca4d2905a9a7401093a.stex to res://joystick/textures/joystick_tip.png
+Converted res://.import/joystick_tip_arrows.png-c9482441a78cf839baf32238aae88b91.stex to res://joystick/textures/joystick_tip_arrows.png
+
+
+********************************EXPORT REPORT********************************
+
+Totals: 
+Decompiled scripts: 7
+Failed scripts: 0
+Imported resources for export session: 	11
+Successfully converted: 		11
+Lossy: 		0
+Rewrote metadata: 0
+Failed to rewrite metadata: 0
+Not converted: 0
+Failed conversions: 0
+-------------
+
+
+
+---------------------------------------------------------------------------------
+
+Use Godot editor version 3.5 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+
+
+

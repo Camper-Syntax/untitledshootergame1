@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Scripts/PlayerController.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Can of Beans.png" type="Texture" id=2]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 11.6667, 11.8421 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 10.7692, 11.25 )
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( 481, 325 )
+script = ExtResource( 1 )
+stats = {
+"Bullet Speed": 1000,
+"Speed": 200
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+material = SubResource( 1 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 0.5 )
+scale = Vector2( 1.2, 1.9 )
+shape = SubResource( 4 )
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 0, 0.5 )
+scale = Vector2( 1.5, 2.2 )
+shape = SubResource( 3 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
