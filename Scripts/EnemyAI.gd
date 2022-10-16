@@ -6,7 +6,7 @@ var velocity
 
 func _physics_process(delta):
 	if target:
-		velocity = global_position.direction_to(target.global_position)
+		velocity = global_position.direction_to(target.global_position).normalized()
 		move_and_collide(velocity * speed * delta)
 
 func _on_Range_body_entered(body):

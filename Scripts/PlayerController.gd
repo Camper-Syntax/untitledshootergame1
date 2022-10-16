@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 export  var stats = {
-	"Speed":200, 
+	"Speed":250, 
 	"Bullet Speed":1500, 
 	"Firerate":0.2
 }
@@ -11,7 +11,7 @@ signal died
 var joystick
 var joystick2
 var firing = false
-export  var BulletToUse = preload("res://Scenes/Bullet.tscn")
+export var BulletToUse = preload("res://Scenes/Bullet.tscn")
 
 func _ready():
 	joystick2 = get_parent().get_parent().get_node("UI/Aiming")
@@ -26,14 +26,14 @@ func _ready():
 func _physics_process(_delta):
 	var velocity = Vector2()
 
-	if Input.is_action_pressed("ui_up"):
-		velocity.y -= 1;
-	if Input.is_action_pressed("ui_down"):
-		velocity.y += 1;
-	if Input.is_action_pressed("ui_left"):
-		velocity.x -= 1;
-	if Input.is_action_pressed("ui_right"):
-		velocity.x += 1;
+#	if Input.is_action_pressed("ui_up"):
+#		velocity.y -= 1;
+#	if Input.is_action_pressed("ui_down"):
+#		velocity.y += 1;
+#	if Input.is_action_pressed("ui_left"):
+#		velocity.x -= 1;
+#	if Input.is_action_pressed("ui_right"):
+#		velocity.x += 1;
 
 	velocity = joystick.get_output()
 	velocity = move_and_slide(velocity * stats["Speed"]);
@@ -45,7 +45,7 @@ func loop():
 		if not joystick2.is_pressed():
 			firing = false
 
-func _input(event):
+func _process(_delta):
 	if joystick2.is_pressed():
 		if not firing:
 			firing = true

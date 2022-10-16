@@ -56,7 +56,7 @@ func newLevel():
 	tilemap.clear()
 	var avail_spawns = []
 	var walker = Walker.new(Vector2(0, 0))
-	var map = walker.walk(200)
+	var map = walker.walk(150)
 	player.position = Vector2(0, 0)
 	walker.queue_free()
 	for vector in map:
