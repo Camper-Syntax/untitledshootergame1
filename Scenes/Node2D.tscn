@@ -9,7 +9,7 @@ script = ExtResource( 1 )
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 2 )
 format = 1
-tile_data = PoolIntArray( -589823, 0, 0, -524287, 0, 0 )
+tile_data = PackedInt32Array( -589823, 0, 0, -524287, 0, 0 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true

@@ -18,7 +18,7 @@ func _init(starting_position):
 
 func walk(steps):
 	place_room(pos)
-	for step in steps:
+	for st in steps:
 		if steps_since_turn >= max_step_before_turn:
 			change_direction()
 		

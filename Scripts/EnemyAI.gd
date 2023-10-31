@@ -1,13 +1,14 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
-var target: KinematicBody2D
+var target: CharacterBody2D
 var speed = 100
-var velocity
+var veloc
 
 func _physics_process(delta):
 	if target:
-		velocity = global_position.direction_to(target.global_position).normalized()
-		move_and_collide(velocity * speed * delta)
+		veloc = global_position.direction_to(target.global_position).normalized()
+# warning-ignore:return_value_discarded
+		move_and_collide(veloc * speed * delta)
 
 func _on_Range_body_entered(body):
 	if body.name == "Player":
